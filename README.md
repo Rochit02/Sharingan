@@ -17,19 +17,6 @@ Whether you need to monitor a secondary machine, provide remote assistance, or c
 - **Secure Authentication:** Dynamically generates a random 8-digit passcode every time it runs. Clients must enter this code on a sleek login page before gaining access to the remote desktop.
 - **Single-Instance Lock:** Built-in safeguards ensure the application binds to a secure background port, preventing accidental duplicate launches.
 
-## 🛠️ Installation & Compilation
-
-1. Clone or download the repository to your host machine.
-2. Install the required dependencies:
-   ```powershell
-   pip install -r requirements.txt
-   pip install pystray Pillow pyinstaller
-   ```
-3. Compile the application into a stealthy, standalone executable:
-   ```powershell
-   pyinstaller --name "Sharingan" --onefile --noconsole --add-data "templates;templates" host.py
-   ```
-4. The resulting `Sharingan.exe` will be located in the `dist/` folder.
 
 ## 🎮 Usage
 
