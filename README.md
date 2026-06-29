@@ -14,6 +14,7 @@ Whether you need to monitor a secondary machine, provide remote assistance, or c
   - **Mouse:** Left, right, and middle clicks map perfectly to the host.
   - **Scroll:** Seamless scrolling support.
   - **Keyboard:** Keystrokes typed while the viewer is active are instantly forwarded to the host machine.
+- **Secure Authentication:** Dynamically generates a random 8-digit passcode every time it runs. Clients must enter this code on a sleek login page before gaining access to the remote desktop.
 - **Single-Instance Lock:** Built-in safeguards ensure the application binds to a secure background port, preventing accidental duplicate launches.
 
 ## 🛠️ Installation & Compilation
@@ -33,10 +34,11 @@ Whether you need to monitor a secondary machine, provide remote assistance, or c
 ## 🎮 Usage
 
 1. Run `Sharingan.exe` on the host PC. 
-2. A popup will immediately appear displaying the local network URL (e.g., `http://192.168.1.5:5000`). 
+2. A popup will immediately appear displaying the local network URL (e.g., `http://192.168.1.5:5000`) and the **8-digit passcode** for the current session. 
 3. The app will then minimize to the Windows system tray (hidden icons). 
 4. On your client laptop (connected to the same Wi-Fi or LAN), open a web browser and navigate to the provided URL.
-5. You now have full view and control of the host PC.
+5. Enter the 8-digit passcode on the login screen to authenticate.
+6. You now have full view and control of the host PC! You can also double-click the video feed to enter Full-Screen mode, or use the "Buy Me A Coffee" button directly within the client viewer.
 
 ### System Tray Controls
 Right-click the red Sharingan icon in the system tray to access the menu:
